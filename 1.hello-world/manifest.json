@@ -1,0 +1,21 @@
+{
+    "name": "Hello World",
+    "description": "desc shown in 'chrome://extensions'",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "options_page": "options.html",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": { // toolbar上面的icon, 可根据需要提供 16 32 64 128的size
+            "128": "/images/get_started128.png"
+        },
+        "default_title": "title shown in toolbar"
+    },
+    "icons": { // settings page里面的icon, 可根据需要提供 16 32 64 128的size
+        "128": "/images/get_started128.png"
+    }
+}

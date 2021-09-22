@@ -1,0 +1,17 @@
+{
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "icon-128.png",
+        "default_title": "Remove cookies for this site"
+    },
+    "description": "Removes cookies for the current site",
+    "icons": {
+        "128": "icon-128.png"
+    },
+    "manifest_version": 2,
+    "name": "Cookie Remover",
+    "permissions": ["activeTab"],
+    "version": "1.0.3"
+}
