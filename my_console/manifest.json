@@ -1,0 +1,17 @@
+{
+    "browser_action": {
+        "default_icon": "icon-128.png",
+        "default_title": "predefine functions on any page"
+    },
+    "description": "I'm your console",
+    "icons": {
+        "128": "icon-128.png"
+    },
+    "manifest_version": 2,
+    "name": "my console",
+    "version": "1.0.0",
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["console.js"]
+    }]
+}
