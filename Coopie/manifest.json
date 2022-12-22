@@ -1,0 +1,17 @@
+{
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "icon-128.png",
+        "default_title": "copy cookies for this document"
+    },
+    "description": "copy cookies for this document",
+    "icons": {
+        "128": "icon-128.png"
+    },
+    "manifest_version": 2,
+    "name": "Coopie",
+    "permissions": ["activeTab"],
+    "version": "1.0.3"
+}
